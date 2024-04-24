@@ -1,5 +1,5 @@
 import React from "react";
-import BannerImg from "../../assets/coffee-white.png";
+import BannerImg from "../../assets/page-17.png";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
@@ -34,24 +34,22 @@ const Banner = () => {
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1
                   data-aos="fade-up"
-                  className="text-3xl sm:text-4xl font-bold font-cursive"
+                  className="text-3xl sm:text-4xl font-bold "
                 >
-                  Premium Blend Coffee
+                  Yield Pro
                 </h1>
                 <p
                   data-aos="fade-up"
                   className="text-sm text-gray-500 tracking-wide leading-5"
                 >
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio
+                  Yeild Pro Calcium Nitrate is a 100% water soluble fertilizer composed of Calcium (Ca) and Nitrogen (N)
                 </p>
 
                 <div className="grid grid-cols-2 gap-6">
                   <div className="space-y-5">
                     <div data-aos="fade-up" className="flex items-center gap-3">
                       <GrSecure className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-red-100 " />
-                      <span>Premium Coffee</span>
+                      <span>Calcium Nitrate</span>
                     </div>
                     <div
                       data-aos="fade-up"
@@ -59,7 +57,7 @@ const Banner = () => {
                       className="flex items-center gap-3"
                     >
                       <IoFastFood className="text-2xl h-12 w-12 shadow-sm p-3 rounded-full bg-orange-100 " />
-                      <span>Hot Coffee</span>
+                      <span>100% Water Soluble Fertilizer</span>
                     </div>
                     <div
                       data-aos="fade-up"
@@ -67,20 +65,19 @@ const Banner = () => {
                       className="flex items-center gap-3"
                     >
                       <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-3 rounded-full bg-yellow-100" />
-                      <span>Cold Coffee</span>
+                      <span>All Crops</span>
                     </div>
                   </div>
                   <div
                     data-aos="slide-left"
                     className="border-l-4 border-primary/50 pl-6 space-y-2"
                   >
-                    <h1 className="text-2xl font-semibold font-cursive ">
-                      Tea Lover
+                    <h1 className="text-2xl font-semibold ">
+                      Significance
                     </h1>
-                    <p className="text-sm text-gray-500">
-                      Much like writing code, brewing the perfect cup of tea
-                      requires patience, precision, and a dash of passion to
-                      create a comforting blend of flavors.
+                    <p className="text-base text-gray-500">
+                      Calcium is a secondary macronutrient that plays vital role in cell wall formation, membrane stability and enzyme-activation.
+                      Nitrogen is an essential nutrient for plant growth and is crucial for various metabolic process like photosynthesis, protein synthesis and overall plant development.
                     </p>
                   </div>
                 </div>

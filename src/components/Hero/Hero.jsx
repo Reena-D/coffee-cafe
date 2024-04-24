@@ -1,12 +1,12 @@
 import React from "react";
-import HeroPng from "../../assets/coffee2.png";
+import HeroPng from "../../assets/range.png";
 
 const Hero = () => {
   return (
     <>
-      <div className="min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center items-center text-white">
-        <div className="container pb-8 sm:pb-0">
-          <div className="grid grid-cols-1 sm:grid-cols-2">
+      <div className="min-h-[550px] sm:min-h-[600px] bg-brandDark flex justify-center items-center text-white bg-[url('./assets/range.png') ]">
+        <div className="container pb-8 sm:pb-0 bg-[url('./assets/range.png')">
+          <div className="grid grid-cols-1 sm:grid-cols-2 bg-[url('./assets/range.png')">
             {/* text content section */}
             <div className="flex flex-col justify-center gap-6 pt-12 sm:pt-0 text-center sm:text-left order-2 sm:order-1">
               <h1
@@ -14,21 +14,21 @@ const Hero = () => {
                 data-aos-once="true"
                 className="text-5xl sm:text-6xl lg:text-7xl font-bold"
               >
-                We serve the richest{" "}
+                We serve the best to the{" "}
                 <span
                   data-aos="zoom-out"
                   data-aos-delay="300"
-                  class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-primary/90 font-cursive"
+                  class="bg-clip-text text-transparent bg-gradient-to-b from-primary to-primary/90 "
                 >
-                  Coffee
+                  Farmer
                 </span>{" "}
-                in the city
+                community
               </h1>
-              <div data-aos="fade-up" data-aos-delay="400">
+              {/* <div data-aos="fade-up" data-aos-delay="400">
                 <button className="bg-gradient-to-r from-primary to-secondary border-2 border-primary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
                   Coffee And Code
                 </button>
-              </div>
+              </div> */}
             </div>
             {/* Image section */}
             <div
@@ -42,7 +42,7 @@ const Hero = () => {
                 alt="biryani img"
                 className="w-[300px] sm:w-[450px] sm:scale-125 mx-auto spin "
               />
-              <div
+              {/* <div
                 data-aos="fade-left"
                 className="bg-gradient-to-r from-primary to-secondary p-3 rounded-xl absolute top-10 left-10"
               >
@@ -54,7 +54,7 @@ const Hero = () => {
                 className="bg-gradient-to-r from-primary to-secondary p-3 rounded-xl absolute bottom-10 right-10"
               >
                 <h1 className="text-white">Best Coffee</h1>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

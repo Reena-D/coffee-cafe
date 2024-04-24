@@ -1,6 +1,6 @@
 import React from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa6";
-import FooterBg from "../../assets/website/coffee-footer.jpg";
+import FooterBg from "../../assets/agri.jpg";
 
 const FooterLinks = [
   {
@@ -38,26 +38,25 @@ const Footer = () => {
           <div className="py-8 px-4">
             <a
               href="#"
-              className="font-semibold tracking-widest text-2xl sm:text-3xl font-cursive
+              className="font-semibold tracking-widest text-2xl sm:text-3xl
 "
             >
-              Coffee Cafe
+            BR Micronutrients Pvt. Ltd.
             </a>
             <p className="  pt-4">
-              Crafted Coffee, Cozy Vibes, Unforgettable Moments – Your Perfect
-              Espresso Escape
+            Dharwad, Karnataka
             </p>
-            <a
+            {/* <a
               href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ"
               target="_blank"
               className="inline-block bg-[#3d2517] py-2 px-4 mt-5 text-sm rounded-full"
             >
               Visit our YouTube Channel
-            </a>
+            </a> */}
           </div>
 
           {/* Footer links */}
-          <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10">
+          {/* <div className="col-span-2 grid grid-cols-2 sm:grid-cols-3 md:pl-10">
             <div className="py-8 px-4">
               <h1 className="text-xl font-semibold sm:text-left mb-3">
                 Important Links
@@ -74,7 +73,7 @@ const Footer = () => {
                   </li>
                 ))}
               </ul>
-            </div>
+            </div> */}
             {/* second col links */}
             <div className="py-8 px-4">
               <h1 className="text-xl font-semibold sm:text-left mb-3">
@@ -100,8 +99,8 @@ const Footer = () => {
                 Address
               </h1>
               <div>
-                <p className="mb-3">Noida , Uttar Pradesh</p>
-                <p>+91 1234567890</p>
+                <p className="mb-3">Plot 533C, Road 24, Belur Industrial Area, Dharwad, Karnataka</p>
+                <p>+91 8904973116</p>
 
                 {/* social links */}
                 <div className="flex items-center gap-3 mt-6">
@@ -120,7 +119,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </div>
+    
   );
 };
 

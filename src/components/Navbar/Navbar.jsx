@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../assets/website/coffee_logo.png";
+import Logo from "../../assets/website/br_logo.png";
 import { FaCoffee } from "react-icons/fa";
 
 const Menu = [
@@ -10,8 +10,8 @@ const Menu = [
   },
   {
     id: 2,
-    name: "Services",
-    link: "/#services",
+    name: "Products",
+    link: "/#products",
   },
   {
     id: 3,
@@ -22,17 +22,18 @@ const Menu = [
 const Navbar = () => {
   return (
     <>
-      <div className="bg-gradient-to-r from-secondary to-secondary/90 shadow-md bg-gray-900 text-white">
+      {/* <div className="bg-gradient-to-r from-white to-green/90 shadow-md bg-green-900 text-red"> */}
+      <div className="bg-white text-red">
         <div className="container py-2">
           <div className="flex justify-between items-center">
             {/* Logo section */}
             <div data-aos="fade-down" data-aos-once="true">
               <a
                 href="#"
-                className="font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive"
+                className="font-medium text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider"
               >
                 <img src={Logo} alt="Logo" className="w-14" />
-                Coffee Cafe
+                BR Micronutrients
               </a>
             </div>
 
@@ -48,17 +49,17 @@ const Navbar = () => {
                   <li key={menu.id}>
                     <a
                       href={menu.link}
-                      className="inline-block text-xl py-4 px-4 text-white/70 hover:text-white duration-200"
+                      className="inline-block text-xl py-4 px-4 text-black hover:text-green duration-200"
                     >
                       {menu.name}
                     </a>
                   </li>
                 ))}
               </ul>
-              <button className=" bg-primary/70 hover:scale-105 duration-200 text-white px-4 py-2 rounded-full flex items-center gap-3">
+              {/* <button className=" bg-primary/70 hover:scale-105 duration-200 text-white px-4 py-2 rounded-full flex items-center gap-3">
                 Order
                 <FaCoffee className="text-xl text-white drop-shadow-sm cursor-pointer" />
-              </button>
+              </button> */}
             </div>
           </div>
         </div>

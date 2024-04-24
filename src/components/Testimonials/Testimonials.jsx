@@ -4,26 +4,26 @@ import Slider from "react-slick";
 const TestimonialData = [
   {
     id: 1,
-    name: "Dilshad",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Ramkrishna Thite",
+    text: "Business Personnel with great enthusiasm to serve sustainable products to agriculture community",
     img: "https://picsum.photos/101/101",
   },
   {
     id: 2,
-    name: "Sabir ali",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Appanna Dadanatti",
+    text: "An agri passionate with a aim to provide sustainable products and services to farmers",
     img: "https://picsum.photos/102/102",
   },
   {
     id: 3,
-    name: "Dipankar kumar",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Praveen Dadanatti",
+    text: "An engineer with a goal to provide optimal products and solutions to the agri community",
     img: "https://picsum.photos/104/104",
   },
   {
     id: 5,
-    name: "Satya Narayan",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Sachin Dadanatti",
+    text: "A marketing enthusisast with a goal to reach products to wider community",
     img: "https://picsum.photos/103/103",
   },
 ];
@@ -74,9 +74,9 @@ const Testimonials = () => {
         <div className="mb-10">
           <h1
             data-aos="fade-up"
-            className="text-center text-4xl font-bold font-cursive"
+            className="text-center text-4xl font-bold text-black "
           >
-            Testimonials
+            Meet Our Team
           </h1>
         </div>
 
@@ -99,8 +99,8 @@ const Testimonials = () => {
                   {/* content section */}
                   <div className="flex flex-col items-center gap-4">
                     <div className="space-y-3">
-                      <p className="text-xs text-gray-500">{data.text}</p>
-                      <h1 className="text-xl font-bold text-black/80  font-cursive2">
+                      <p className="text-sm text-gray-500">{data.text}</p>
+                      <h1 className="text-xl font-bold text-black/80 ">
                         {data.name}
                       </h1>
                     </div>
